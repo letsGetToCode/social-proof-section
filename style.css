@@ -47,11 +47,11 @@ body {
   line-height: 36px;
 }
 
-.top-right { border: 1px solid red;
+.top-right {
   max-height: 250px;
 }
 
-.rating { border: 1px solid green;
+.rating { 
   background-color: var(--clr-ligth-magenta);
   border-radius: 8px;
   height: fit-content;
@@ -59,7 +59,7 @@ body {
   display: flex;
   align-items: center;
   color: var(--clr-dark-magenta);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-bold);        
 }
 
 .rating .icon-wrapper {
