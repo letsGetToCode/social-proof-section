@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  margin: 116px 164px; 
+  margin: 116px 80px; 
 }
 
 .top-left {
@@ -87,8 +87,29 @@ body {
   color: var(--clr-white);
   padding: 20px 40px;
   width: 330px;
+  position: relative;
+}
+
+.card img {
+  width: 44px;
 }
 
 .user-information h6 + h6 {
   color: var(--clr-soft-pink);
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+.card1 {
+  top: 20px;;
+}
+
+.card2 {
+  top:40px;
+}
+
+.card3 {
+  top: 60px;;
 }
